@@ -10,11 +10,19 @@ export default defineConfig({
     devSourcemap: true 
   },
   build: {
+    manifest: true,
+    outDir: `dist`,
+    emptyOutDir: true,
     sourcemap: true,
-    minify: false,
+    minify: true,
     rollupOptions: {
+    input: [
+        'src/js/main.js',
+        'src/css/styles.scss',
+        ],
       output: {
-        assetFileNames: "assets/[name].[ext]",
+        entryFileNames: '[name].js',
+        assetFileNames: 'assets/[name].[ext]',
       },
     },
   },
