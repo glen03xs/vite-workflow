@@ -1,0 +1,42 @@
+/* -------------------------------------------------------------------------------------/*
+Glen Nepomuceno CSS framework
+Ver: 1.0 \ Author URI: glennepomuceno.com
+/* -------------------------------------------------------------------------------------*/
+
+/*-------------- Plugins --------------*/
+// @import './plugins/variables';
+// @import './plugins/normalize.scss';
+// @import './plugins/_fontawesome.scss';
+// @import './plugins/slick.scss';
+// @import './plugins/slick-theme.scss';
+
+/*-------------- Utilities --------------*/
+// @import "./utilities/settings";
+// @import './utilities/grid';
+// @import './utilities/fonts';
+
+/*-------------- UI --------------*/
+// @import './layout/base';
+// @import './layout/main';
+// @import './layout/misc';
+// @import './layout/nav';
+// @import './layout/header';
+// @import './layout/footer';
+// @import './layout/page';
+
+/*-------------- Header --------------*/
+@import './header/header-base.scss';
+
+/*-------------- Pages --------------*/
+// @import './pages/blog';
+// @import './pages/services';
+// @import './pages/about-contact';
+// @import './pages/homepage';
+
+/*-------------- Modules --------------*/       
+// @import './modules/btn';  
+// @import './modules/forms';
+// @import './modules/modal';
+
+/*-------------- Mobile --------------*/
+
