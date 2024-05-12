@@ -10,6 +10,7 @@ export default defineConfig({
     devSourcemap: true 
   },
   build: {
+    assetsDir: '.',
     manifest: true,
     outDir: `dist`,
     emptyOutDir: true,
@@ -18,10 +19,10 @@ export default defineConfig({
     rollupOptions: {
     input: [
         'src/js/main.js',
-        'src/css/styles.scss',
+        'src/css/style.scss',
         ],
       output: {
-        entryFileNames: '[name].js',
+        entryFileNames: 'assets/[name].js',
         assetFileNames: 'assets/[name].[ext]',
       },
     },
